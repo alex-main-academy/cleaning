@@ -1,0 +1,22 @@
+.stroke {
+    background-color: var(--accent-dark-color);
+    overflow: hidden;
+    padding: 4rem 0;
+}
+
+.stroke__list {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 5rem;
+
+    @media screen and (max-width:1200px) {
+        gap: 3.5rem;
+    }
+}
+
+.stroke__item {
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
